@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+// eslint-disable-next-line 
 import { SocialIcon } from 'react-social-icons';
 
 

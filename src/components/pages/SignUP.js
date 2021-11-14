@@ -11,6 +11,7 @@ export default function SignUP() {
     
     const handleSubmit = (event) => {
         event.preventDefault()
+        // eslint-disable-next-line 
         const data = {
             
             email: emailRef.current.value,

@@ -15,7 +15,7 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+        Enter Strands
         </Button>
         <Button
           className='btns'
@@ -23,7 +23,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          WATCH STRING <i className='far fa-play-circle' />
+          Watch Hybridization <i className='far fa-play-circle' />
         </Button>
       </div>
     </div>

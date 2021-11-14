@@ -68,3 +68,86 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- import React , { useRef} from 'react';
+import '../../App.css';
+
+export default function DNA() {
+  
+    
+    const NRef = useRef()
+    const KRef = useRef()
+    const string1Ref = useRef()
+    const string2Ref = useRef()
+
+    
+    const handleSubmit = (event) => {
+        event.preventDefault()
+        // eslint-disable-next-line 
+        const data = {
+            
+            N: NRef.current.value,
+            K: KRef.current.value,
+            string1: string1Ref.current.value,
+            string2: string2Ref.current.value,
+
+        }
+    }
+
+    return (
+        <div  className="container">
+            <h1>Enter Strands</h1>
+            <form onSubmit={handleSubmit} className="form">
+               
+              
+                <label for="N">N0. of strings </label>
+                <input 
+                type="N" 
+                name="N"
+                id="N"
+                className="N"
+                placeholder="Enter string"
+                ref={NRef}
+                tabindex="3" 
+                />
+                <label for="K">Length of the string</label>
+                <input 
+                type="K" 
+                name="K"
+                id="K"
+                className="K"
+                placeholder="Enter length"
+                ref={KRef}
+                tabindex="3" 
+                />
+                 <label for="string1">String 1</label>
+                <input 
+                type="string1" 
+                name="string1"
+                id="string1"
+                className="string1"
+                placeholder="Enter string"
+                ref={string2Ref}
+                tabindex="3" 
+                />
+                 <label for="string2">String 2</label>
+                <input 
+                type="string2" 
+                name="string2"
+                id="string2"
+                className="string2"
+                placeholder="Enter string"
+                ref={string2Ref}
+                tabindex="3" 
+                />
+
+
+
+               
+                <button type="submit" className="send">Submit</button>
+            </form>
+        </div>
+    )
+};
+ -->
