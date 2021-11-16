@@ -1,12 +1,13 @@
 import React from 'react';
 import '../App.css';
+// eslint-disable-next-line
 import { Button } from './Button';
-// import  DNASection from './components/DNASection';
 import './DNASection.css';
 
 function DNASection() {
   return (
     <div className='DNA-container'>
+   
       <img src='/images/dna1.jpg'  />
       <h1>Enter Strands </h1>
       <form>
