@@ -35,6 +35,10 @@ export default function DNAinfo() {
 
 
                       </p>
+                      <img src='/images/Intra.png'
+          alt ='IntraBond'  
+          height ={200} width ={600}
+          />
                 </div>
 
                 

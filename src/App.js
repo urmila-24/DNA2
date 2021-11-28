@@ -9,7 +9,6 @@ import Home from './components/pages/Home';
 // import About from './components/pages/About';
 import About from './components/pages/About';
 import Contacts from './components/pages/Contacts';
-import SignUP from './components/pages/SignUP';
 import DNA from './components/pages/DNA';
 import Output1 from './components/pages/Output1';
 import Output2 from './components/pages/Output2';
@@ -23,7 +22,6 @@ export function App() {
           <Route path="/" element={<Home />} />
           <Route path="About/*" element={<About />} />
           <Route path="Contacts/*" element={<Contacts />} />
-          <Route path="SignUP/*" element={<SignUP />} />
          
           <Route path="DNA/*" element={<DNA />} />
           <Route path="Output1/*" element={<Output1 />} />
